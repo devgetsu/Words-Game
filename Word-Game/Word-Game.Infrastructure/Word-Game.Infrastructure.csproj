@@ -18,6 +18,7 @@
   </ItemGroup>
 
   <ItemGroup>
+    <ProjectReference Include="..\Word-Game.Application\Word-Game.Application.csproj" />
     <ProjectReference Include="..\Word-Game.Domain\Word-Game.Domain.csproj" />
   </ItemGroup>
 
