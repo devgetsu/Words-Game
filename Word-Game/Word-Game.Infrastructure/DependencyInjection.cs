@@ -21,7 +21,7 @@ namespace Word_Game.Infrastructure
             services.AddDbContext<ApplicationDbContext>(options=>{
                 options
                     .UseLazyLoadingProxies()
-                        .UseNpgsql(config.GetConnectionString(""));
+                        .UseNpgsql(config.GetConnectionString("DefCon"));
             });
 
 
